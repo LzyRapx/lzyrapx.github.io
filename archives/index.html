@@ -17,7 +17,7 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="lzyrapx">
-<meta property="og:url" content="http:&#x2F;&#x2F;lzyrapx.xyz&#x2F;archives&#x2F;index.html">
+<meta property="og:url" content="http:&#x2F;&#x2F;lzyrapx.github.io&#x2F;archives&#x2F;index.html">
 <meta property="og:site_name" content="lzyrapx">
 <meta property="og:locale" content="cn">
 <meta name="twitter:card" content="summary">
@@ -564,5 +564,20 @@ ga('send', 'pageview');
   }
 </script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
